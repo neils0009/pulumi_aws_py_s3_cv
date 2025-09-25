@@ -1,0 +1,11 @@
+name: pulumi_aws_py_s3_cv
+description: static CV
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
