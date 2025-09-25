@@ -16,9 +16,9 @@
  - Python 3.6 or later installed.
  - Pulumi CLI already installed and logged in.
 
- ## What is this project
+ ## About this project
 
 This repository is a simple static CV created on S3 bucket.
 
-Once you run the pulumi up command, the output will should you the URL for the CV.
-URL format : http://<bucket_name>.s3-website-<aws-region>.amazonaws.com
+- Once you run the pulumi up command, the output will should you the URL for the CV.
+- URL format : http://<bucket_name>.s3-website-<aws-region>.amazonaws.com
